@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodieDash Registretion</title>
+    <link rel="stylesheet" href="../public/css/auth.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="overlay"></div>
+            <div class="text">
+                <h1>FoodieDash</h1>
+                <p>Join our community of food lovers!</p>
+            </div>
+        </div>
+        <div class="right">
+            <div class="form-box">
+                <h2>Create Your Account</h2>
+                <p>Start your delicious journey today!</p>
+                <input id="name" type="text" placeholder="👤 UserName">
+                <input id="email" type="email" placeholder="📧 Email Address">
+                <input id="password" type="password" placeholder="🔒 Password">
+                <input id="phone" type="number" placeholder="📞 Phone Number">
+                <textarea id="address" name="address" cols="10" rows="4" id="address" placeholder="🏚 Delivery Address(e.g.,street,city,zip)"></textarea>
+                <div class="terms">
+                    <input type="checkbox">I agree to the Terms & Conditions
+                </div>
+                <button onClick="registerUser()">REGISTER</button>
+                <p class="login">Already have an account? <a href="/view/login.html"><span id="loginSpan">Sign In</span></a></p>
+            </div>
+        </div>
+    </div>
+    <script src="../public/js/auth.js"></script>
+</body>
+</html>
