@@ -18,7 +18,7 @@ body {
 /* LEFT SIDE */
 .left {
     flex: 1;
-    background: url('/public/images/RegistrationHeroImage.png') no-repeat center/cover;
+    background: url('Food-app/public/images/RegistrationHeroImage.png') no-repeat center/cover;
     position: relative;
     color: white;
 }
